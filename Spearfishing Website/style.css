@@ -1,0 +1,174 @@
+
+.navbar {
+  background-color: #5800FF;
+  font-size: 1rem;
+}
+.nav-link {
+  color: white;
+}
+.title {
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: cursive;
+}
+
+.body {
+  background-color: #0096FF;
+}
+.DivingIcon {
+  margin-top: 1px;
+}
+
+.footer{
+  padding: 0 0 0 0;
+}
+
+.card {
+  background-color: #00D7FF;
+  margin-bottom: 50px;
+}
+
+.card-body-even {
+  text-align: right;
+  padding: 1% 3% 1% 0;
+}
+
+.card-body-odd {
+  text-align: left;
+  padding: 1% 0 1% 3%;
+}
+
+
+.subtitle {
+  margin-bottom: 50px;
+}
+
+.footer {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: block;
+
+}
+
+
+
+
+/* Simple reset & Demo styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-menu {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.container-menu header {text-align: center;}
+
+.container-menu .span {
+  align-items: center;
+
+  padding: 2%;
+}
+
+/* Accordeon styling */
+.accordeon {}
+
+.accordeon label {
+    display: block;
+    padding: 1em;
+    font-weight: 700;
+    font-size: 1.5em;
+    background: #00D7FF;
+    color: black;
+    cursor: pointer;
+    border-bottom: 1px solid #1ABC9C;
+}
+
+.accordeon label:hover {
+	background: #2fe2bf;
+}
+
+.accordeon .panel {
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    background: #72FFFF;
+    color: black;
+}
+
+/* Hide checkboxes and radio-buttons */
+.accordeon input[type="radio"], .accordeon input[type="checkbox"] {
+    display: none;
+}
+/* Show .panel for corresponding to checked radio or checkbox */
+.accordeon input[type="radio"]:checked + .panel, .accordeon input[type="checkbox"]:checked + .panel {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+    padding: 1.5em;
+}
+
+.container-tips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-cards {
+  margin-top: 50px;
+}
+
+.container-table {
+  width: 80%;
+  margin: 50px auto 50px auto;
+
+}
+
+.table {
+  background-color: #00D7FF;
+}
+
+.img {
+  width: 495px;
+  height: 835px;
+}
+
+.container-gear {
+  margin-top: 50px;
+}
+
+.gear-id-even {
+  position:relative;
+  float: left;
+  width: 100px;
+  height: 120px;
+  margin-left: 3%
+}
+
+.gear-id-odd {
+  position:relative;
+  float: right;
+  width: 100px;
+  height: 120px;
+  margin-right: 3%;
+}
+
+.subtitle {
+  margin: 20px auto 50px auto;
+}
+
+.foot2 {
+  margin: 1% 3% 1% auto;
+}
+
+.foot1 {
+  margin: 1% auto 1% 3%;
+}
